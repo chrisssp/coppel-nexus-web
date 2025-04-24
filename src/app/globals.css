@@ -1,5 +1,100 @@
 @import "tailwindcss";
 
+@theme {
+  --color-blue-50: #FAFBFC;
+  --color-blue-100: #F1F4FA;
+  --color-blue-150: #D9E3F2;
+  --color-blue-200: #A1B8DE;
+  --color-blue-300: #006FB9;
+  --color-blue-400: #145B97;
+  --color-blue-500: #194B7B;
+  --color-blue-600: #103151;
+
+  --color-yellow-100: #FFF9E0;
+  --color-yellow-200: #FFEC99;
+  --color-yellow-300: #FFDC35;
+  --color-yellow-400: #D3B318;
+  --color-yellow-500: #847220;
+
+  --color-success-400: #2E8241;
+  --color-error-400: #BA4B44;
+  --color-warning-400: #AB5C00;
+  --color-info-400: #0076A9;
+  --color-visited-400: #5548E9;
+  --color-aprove-400: #E5FFEB;
+  --color-error-100: #FFF0EF;
+  --color-warning-100: #FFF4E8;
+  --color-info-100: #E4F7FF;
+  --color-visited-100: #5548E9;
+
+  --color-white-0: #FFFFFF;
+  --color-gray-100: #EEDEDD;
+  --color-gray-200: #BEBEBD;
+  --color-gray-300: #9B9A98;
+  --color-gray-400: #777673;
+  --color-gray-500: #595955;
+  --color-gray-600: #3B3A37;
+  --color-gray-700: #1B1A16;
+
+  --color-transparent: rgba(255, 255, 255, 0.01);
+
+  --shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25);
+
+  --font-circular: "Circular Std", ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: 47px;
+  --text-display--line-height: 51px;
+  --text-display--font-weight: 700;
+
+  --text-h1: 36px;
+  --text-h1--line-height: 44px;
+  --text-h1--font-weight: 700;
+
+  --text-h2: 28px;
+  --text-h2--line-height: 36px;
+  --text-h2--font-weight: 700;
+
+  --text-h3: 24px;
+  --text-h3--line-height: 32px;
+  --text-h3--font-weight: 700;
+
+  --text-subtitle-1: 20px;
+  --text-subtitle-1--line-height: 28px;
+  --text-subtitle-1--font-weight: 700;
+
+  --text-subtitle-2: 20px;
+  --text-subtitle-2--line-height: 28px;
+  --text-subtitle-2--font-weight: 700;
+
+  --text-action: 16px;
+  --text-action--line-height: 24px;
+  --text-action--font-weight: 700;
+
+  --text-link: 16px;
+  --text-link--line-height: 24px;
+  --text-link--font-weight: 700;
+
+  --text-body: 16px;
+  --text-body--line-height: 24px;
+  --text-body--font-weight: 400;
+
+  --text-body-small: 14px;
+  --text-body-small--line-height: 22px;
+  --text-body-small--font-weight: 400;
+
+  --text-body-footer: 14px;
+  --text-body-footer--line-height: 16px;
+  --text-body-footer--font-weight: 400;
+
+  --text-caption: 12px;
+  --text-caption--line-height: 16px;
+  --text-caption--font-weight: 400;
+
+  --text-caption-small: 10px;
+  --text-caption-small--line-height: 12px;
+  --text-caption-small--font-weight: 400;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,13 +109,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #002138;
+    --foreground: #FAFBFC;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
