@@ -27,7 +27,6 @@
   --color-info-100: #E4F7FF;
   --color-visited-100: #5548E9;
 
-  --color-white-0: #FFFFFF;
   --color-gray-100: #EEDEDD;
   --color-gray-200: #BEBEBD;
   --color-gray-300: #9B9A98;
@@ -36,11 +35,8 @@
   --color-gray-600: #3B3A37;
   --color-gray-700: #1B1A16;
 
-  --color-transparent: rgba(255, 255, 255, 0.01);
-
-  --shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25);
-
   --font-circular: "Circular Std", ui-sans-serif, system-ui, sans-serif;
+  --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --text-display: 47px;
   --text-display--line-height: 51px;
@@ -58,13 +54,9 @@
   --text-h3--line-height: 32px;
   --text-h3--font-weight: 700;
 
-  --text-subtitle-1: 20px;
-  --text-subtitle-1--line-height: 28px;
-  --text-subtitle-1--font-weight: 700;
-
-  --text-subtitle-2: 20px;
-  --text-subtitle-2--line-height: 28px;
-  --text-subtitle-2--font-weight: 700;
+  --text-subtitle: 20px;
+  --text-subtitle--line-height: 28px;
+  --text-subtitle--font-weight: 700;
 
   --text-action: 16px;
   --text-action--line-height: 24px;
@@ -96,8 +88,8 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--color-blue-50);
+  --foreground: var(--color-gray-700);
 }
 
 @theme inline {
@@ -110,12 +102,48 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #002138;
-    --foreground: #FAFBFC;
+    --foreground: #DFDFDE;
+
+    --color-white: #191F25;
+    --color-blue-50: #252B31;
+
+    --color-blue-100: #002138;
+    --color-blue-150: #012D4B;
+    --color-blue-200: #0C375B;
+    --color-blue-250: #194D7E;
+    --color-blue-300: #169BF3;
+    --color-blue-400: #0D79CA;
+    --color-blue-500: #5F8DC9;
+
+    --color-yellow-100: #2D270B;
+    --color-yellow-200: #D1B62F;
+    --color-yellow-300: #FFDD35;
+    --color-yellow-400: #FFE565;
+    --color-yellow-500: #FFEC8F;
+
+    --color-success-400: #3BA653;
+    --color-error-400: #F4B2AE;
+    --color-warning-400: #E9BA81;
+    --color-info-400: #9ACEEA;
+    --color-visited-400: #877CE9;
+
+    --color-success-100: #0C2211;
+    --color-error-100: #29100F;
+    --color-warning-100: #2E1900;
+    --color-info-100: #0B2837;
+
+    --color-gray-100: #02090F;
+    --color-gray-200: #0F151B;
+    --color-gray-300: #191F25;
+    --color-gray-400: #252B31;
+    --color-gray-500: #2A3035;
+    --color-gray-600: #797C7E;
+    --color-gray-700: #DFDFDE;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: var(--font-helvetica);
 }
