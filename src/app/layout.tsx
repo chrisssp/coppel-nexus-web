@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-gray-700`}
       >
         <Navbar />
-        <div className="px-36 py-12 flex flex-col gap-12">
+        <div className="max-w-screen-xl mx-auto px-36 py-12 flex flex-col gap-12">
           {children}
         </div>
       </body>
