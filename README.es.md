@@ -1,14 +1,15 @@
-<h1 align="center">🛍️ Coppel Nexus Web — Tienda en Línea</h1>
+# Coppel Nexus Web — Ecosistema de Referidos para Equipos de Adquisición en Campo
 
 <p align="center">
   <img src="https://img.shields.io/badge/Next.js-15-000000?logo=next.js&logoColor=white" alt="Next.js">
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React">
   <img src="https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/License-GPL_v3-0298c3?logo=gnu&logoColor=white" alt="GPL v3">
 </p>
 
 <p align="center">
-  <em>Plataforma de comercio electrónico moderna para descubrimiento y compra de productos.</em>
+  <em>Panel web de administración para seguimiento de referidos, incorporación de micro-negocios y gestión de rutas de colaboradores</em>
 </p>
 
 <p align="center">
@@ -19,14 +20,24 @@
 
 ## Acerca de Coppel Nexus Web
 
-Una tienda en línea con funcionalidades completas construida con Next.js 15 y React 19, diseñada para ofrecer una experiencia de compra fluida con búsqueda rápida de productos, navegación intuitiva y un proceso de pago sin complicaciones.
+Un panel de administración web construido para los equipos de adquisición en campo de Coppel durante el Hackathon de Talent Land 2025 (4.º lugar). Permite rastrear referidos de micro-negocios a Coppel Emprende, monitorear el progreso de cursos y gestionar rutas y cargas de trabajo de colaboradores.
+
+Parte de un ecosistema más grande que incluye una app móvil para colaboradores en campo y un backend con Express/MongoDB/Firebase.
+
+### Ecosistema
+
+| Componente | Stack |
+|-----------|-------|
+| Web Admin | Next.js 15, React 19, Tailwind CSS 4, TypeScript |
+| App Móvil (Colaboradores) | React Native, Expo, Tailwind CSS |
+| Backend API | Express, MongoDB, Firebase |
 
 ## Funcionalidades
 
-- Catálogo de productos con búsqueda y filtros
-- Carrito de compras y proceso de pago
-- Renderizado del lado del servidor para carga rápida
-- Diseño responsivo para todos los dispositivos
+- Registrar y rastrear referidos de micro-negocios a Coppel Emprende
+- Monitorear el progreso de cursos de negocios referidos
+- Gestionar rutas y distribución de carga de colaboradores
+- Seguimiento en tiempo real del pipeline de referidos
 
 ## Inicio rápido
 
@@ -44,7 +55,7 @@ npm install
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+Abrir [http://localhost:3000](http://localhost:3000) en tu navegador.
 
 ## Contribuciones
 
